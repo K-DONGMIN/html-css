@@ -30,9 +30,14 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="e-mail or phone number" />
-      <input type="password" placeholder="password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="e-mail or phone number"
+      />
+      <input name="password" type="password" required placeholder="password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kakao Acount of Password</a>
     </form>
