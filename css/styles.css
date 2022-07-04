@@ -18,7 +18,8 @@ body {
     font-family: 'Gantari', sans-serif;
     color: #2e363e;
     padding-top: 30px;
-    height: 1000vh;
+    padding-bottom: 70px;
+    overflow: auto;
 }
 .main-screen {
     padding: 0px var(--horizontal-space);

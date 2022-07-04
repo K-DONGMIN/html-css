@@ -9,7 +9,7 @@
 }
 #friends-display-link i {
     margin: 0px 3px;
-    color: rgba(0, 0, 0, 0.3);
+    color: var(--main-color);
 }
 .friends-screen {
     padding: 0px var(--horizontal-space);
@@ -17,12 +17,12 @@
 .friends-screen__channel {
     margin-top: 10px;
     padding-top: 15px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: var(--main-border);
 }
 .friends-screen__channel-header {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgba(0, 0, 0, 0.4);
+    color: var(--main-color);
 }
