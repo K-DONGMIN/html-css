@@ -13,6 +13,8 @@
     opacity: 0.8;
     margin-right: 20px;
     font-size: 22px;
+    width: 20px;
+    height: 22px;
 }
 .settings__setting-column-state {
     opacity: 0.5;
