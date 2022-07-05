@@ -1,3 +1,32 @@
 .icon-row {
     margin-bottom: 40px;
 }
+.more-suggestions {
+    border-top: var(--main-border);
+    padding-top: 30px;
+}
+.more-suggestions__title {
+    margin-bottom: 30px;
+}
+.more-suggestions__icon-image {
+    margin-bottom: 10px;
+}
+.more-suggestions__icon-images {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.more-suggestions__icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.more-suggestions__icon {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-suggestions__icon-text {
+    font-size: 15px;
+}
